@@ -9,7 +9,7 @@ import net.minecraft.text.Text;
 import org.lwjgl.glfw.GLFW;
 
 public class NoHurtCam implements ModInitializer {
-    public static boolean toggledOn = false;
+    public static boolean toggledOn = true;
     MinecraftClient client = MinecraftClient.getInstance();
     @Override
     public void onInitialize() {
